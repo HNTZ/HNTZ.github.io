@@ -1,0 +1,233 @@
+
+
+//max width (mauvais)
+
+@media screen and (max-width: 1500px) {
+    .prog .languages, .logiciels {
+      margin-left: 20%
+    }
+    .prog h2 span {
+      margin-left: 10%;
+    }
+
+    #projets {
+      .projet {
+        a {
+          margin-top: 15%;
+        }
+      }
+    }
+}
+
+@media screen and (max-width: 1150px) {
+  #projets {
+    .projet {
+      a {
+        margin-top: 20%;
+      }
+    }
+  }
+  #contact {
+    .coord-content {
+      .image {
+        img {
+          width: 200px;
+          .grad {
+            width: 250px;
+            height: 200px;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  nav {
+    h1 {
+      font-size: 10vw;
+      text-shadow: none;
+    }
+  }
+  #accueil {
+    img {
+      width: 250px;
+    }
+    .desc {
+      font-size: 20px;
+      text-shadow: none;
+    }
+  }
+  #form {
+    margin-bottom: -10px;
+  }
+  body #galerie .galerie_boutons .galerie_graph div,body #galerie .galerie_boutons .galerie_web div{
+    width: 32vw;
+    height: 32vw;
+    img {
+      width: 20vw;
+    }
+  }
+  #comp {
+    font-size: 50px;
+  }
+  #competences h2 {
+    font-size: 30px;
+  }
+  .prog {
+    margin-top: 80px;
+    h2 span {
+      padding: 30px;
+    }
+    .languages, .logiciels {
+    margin-left: 15%;
+    margin-right: 15%;
+      h3 {
+        font-size: 20px;
+      }
+    }
+  }
+  #projets {
+    h1 {
+      font-size: 30px;
+    }
+    .projet {
+      padding-left: 5%;
+      a {
+        margin-top: 400px;
+        margin-left: 40%;
+        img {
+          width: 400px;
+        }
+      }
+      h2 {
+        font-size: 20px;
+        letter-spacing: 5px;
+      }
+    }
+  }
+
+  #galerie {
+    h1 {
+      padding-top: 50px;
+      font-size: 30px;
+    }
+    .galerie_boutons {
+      .graphisme, .web {
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  #contact {
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 70%;
+    }
+    .coord-content {
+      .image {
+        width: 100%;
+        img {
+          width: 200px;
+        }
+        .grad {
+          width: 280px;
+          height: 200px;
+        }
+      }
+      .coord {
+        width: 50%;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  nav {
+    h1 {
+      font-size: 12vw;
+    }
+  }
+  #accueil {
+    img {
+      width: 175px;
+    }
+    .desc {
+      font-size: 10px;
+      letter-spacing: 3.5px;
+    }
+  }
+  #competences h1 {
+    padding-top: 100px;
+  }
+  body #galerie .galerie_boutons .galerie_graph div,body #galerie .galerie_boutons .galerie_web div{
+    width: 28vw;
+    height: 28vw;
+    margin: 1.2vw;
+  }
+  #competences h1 #comp  {
+    font-size: 25px;
+    padding: 0 10px;
+  }
+  #competences h2 {
+    font-size: 20px;
+  }
+  .prog {
+    margin-top: 40px;
+    h2 span {
+      padding: 20px;
+    }
+    .languages, .logiciels {
+      h3 {
+        font-size: 15px;
+      }
+    }
+  }
+  #projets {
+    h1 {
+      font-size: 20px;
+    }
+    .projet {
+      a {
+        margin-top: 400px;
+        margin-left: 40%;
+        img {
+          width: 200px;
+        }
+      }
+    }
+  }
+  #galerie {
+    h1 {
+      font-size: 20px;
+    }
+  }
+  #contact {
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 50%;
+    }
+    .coord-content {
+      .image {
+        img {
+          margin-top: 10px;
+          width: 100px;
+        }
+        .grad {
+          width: 140px;
+          height: 100px;
+        }
+      }
+    }
+  }
+}
+
+
+// min-width (bon)

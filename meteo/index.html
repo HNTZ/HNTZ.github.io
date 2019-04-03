@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/weather-icons.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans|Titillium+Web" rel="stylesheet">
+  <!-- font-family: 'PT Sans', sans-serif; font-family: 'Titillium Web', sans-serif; -->
+</head>
+
+<body>
+<div class="content">
+  <div class="loader">
+    <p class="loading-percent">0</p>
+    <div></div>
+    <p class="loading-text">Recupération de votre position...</p>
+    <p class="loading-text">Chargement des données...</p>
+    <p class="loading-text">Chargement de l'interface...</p>
+  </div>
+  <div class="jour" id="jour">
+    <div class="search">
+      <input type="search">
+    </div>
+    <i class="fa fa-search" id="open"></i>
+    <p id="date"></p>
+    <i id="icon"></i>
+    <p id="ville"></p>
+    <p id="temp"></p>
+  </div>
+  <ul>
+
+  </ul>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineLite.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/easing/EasePack.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/RoundPropsPlugin.min.js"></script>
+  <script type="text/javascript" src="js/vendors/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+ </div>
+</body>
+
+</html>

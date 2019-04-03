@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/reset.css">
+	  <link rel="stylesheet" href="./css/videojs.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Titillium+Web" rel="stylesheet">
+    <!-- font-family: 'PT Sans', sans-serif; font-family: 'Titillium Web', sans-serif; -->
+</head>
+
+<body>
+
+
+	<main>
+		<video  class="video-js" id="my-player">
+			<source src="./assets/video/video1.mp4" type='video/mp4'>
+		</video>
+	</main>
+  <section class="loading flex">
+    <div class="noise">
+
+    </div>
+    <h1 class="glitch">La Neutralité du Net</h1>
+    <svg id="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 136 136"><defs><style>.cls-1{fill:#fff;}</style></defs><title>Fichier 1</title><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><rect class="cls-1" y="64" width="41" height="8" rx="4" ry="4"/><rect class="cls-1" x="6.36" y="87.75" width="41" height="8" rx="4" ry="4" transform="translate(-42.28 25.72) rotate(-30)"/><rect class="cls-1" x="23.75" y="105.14" width="41" height="8" rx="4" ry="4" transform="translate(-72.39 92.89) rotate(-60)"/><rect class="cls-1" x="64" y="95" width="8" height="41" rx="4" ry="4"/><rect class="cls-1" x="87.75" y="88.64" width="8" height="41" rx="4" ry="4" transform="translate(-42.28 60.5) rotate(-30)"/><rect class="cls-1" x="105.14" y="71.25" width="8" height="41" rx="4" ry="4" transform="translate(-24.89 140.39) rotate(-60)"/><rect class="cls-1" x="95" y="64" width="41" height="8" rx="4" ry="4"/><rect class="cls-1" x="88.64" y="40.25" width="41" height="8" rx="4" ry="4" transform="translate(-7.5 60.5) rotate(-30)"/><rect class="cls-1" x="71.25" y="22.86" width="41" height="8" rx="4" ry="4" transform="translate(22.61 92.89) rotate(-60)"/><rect class="cls-1" x="64" width="8" height="41" rx="4" ry="4"/><rect class="cls-1" x="40.25" y="6.36" width="8" height="41" rx="4" ry="4" transform="translate(-7.5 25.72) rotate(-30)"/><rect class="cls-1" x="22.86" y="23.75" width="8" height="41" rx="4" ry="4" transform="translate(-24.89 45.39) rotate(-60)"/></g></g></svg>
+    <div class="continue"><p>Cliquez pour continuer</p></div>
+    <h2 class="msg msg1">La Neutralité du Net est en danger</h2>
+    <h2 class="msg msg2">Voici quelques vidéos sur le sujet</h2>
+  </section>
+  <section class="informations">
+    <div class="neutralité flex">
+      <h1><span>La Neutralité du Net</span></h1>
+      <div class="neutralité_contenu flex">
+        <div class="neutralité_résumé">
+          <p>La neutralité du net est un principe devant garantir l'égalité de traitement de tous les flux de données sur Internet. Ce principe exclut par exemple toute discrimination à l'égard de la source, de la destination ou du contenu de l'information transmise sur le réseau.
+Alors que les équipements techniques du réseau Internet rendent possible depuis les années 2000 une gestion sélective, voire discriminatoire, du trafic, d'importants débats politiques ont lieu depuis le début de la décennie 2010 pour décider si ce principe doit être garanti par la législation.
+</p><p><b>Cette sélection de vidéos sur la neutralité du net vous aidera à mieux saisir la nature et l'importance de ce concept.</b></p>
+        </div>
+        <div class="plus">
+          <h2>+ d'infos:</h2>
+          <ul>
+            <li class="flex"><a href="https://fr.wikipedia.org/wiki/Neutralité_du_réseau" target="_blank">Page Wikipedia</a></li>
+            <li class="flex"><a href="http://www.lemonde.fr/pixels/article/2017/11/22/qu-est-ce-que-la-neutralite-du-net_5218670_4408996.html" target="_blank">Article du monde</a></li>
+            <li class="flex"><a href="https://www.battleforthenet.com" target="_blank">Battleforthenet.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="conférence 1 flex" id="active">
+      <div class="conférencier flex">
+        <img src="./assets/img/data120.jpg" alt="">
+        <div>
+          <h2>Data Gueule</h2>
+          <p>Data Gueule est une emission traitant de sujets de sociétés via de courtes vidéos illustrant les données relatives à un sujet de manière originale et compréhensible par tous.</p>
+        </div>
+      </div>
+      <div class="conf flex">
+        <div class="image">
+          <img src="./assets/img/data150.jpg" alt="">
+          <a href="https://www.youtube.com/channel/UCm5wThREh298TkK8hCT9HuA">Youtube<i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+        </div>
+        <div class="conf_résumé">
+          <h2>Data Gueule #23, 2015</h2>
+          <p>L'emission Data Gueule choisit de se pencher sur le sujet de la neutralité du net dans une vidéo pédagogique et synthétique.</p>
+        </div>
+      </div>
+    </div>
+    <div class="conférence 2 flex">
+      <div class="conférencier flex">
+        <img src="./assets/img/quadrature.png" alt="">
+        <div>
+          <h2>La Quadrature du Net</h2>
+          <p>La Quadrature du Net est une organisation prônant des valeurs telles que le partage de la connaissance, l'ouverture de la technologie et la maitrise de la technologie par les individus.</p>
+        </div>
+      </div>
+      <div class="conf flex">
+        <div class="image">
+          <img src="./assets/img/pigeon.jpg" alt="">
+          <a href="http://onpdp.com/">ONPQDP<i class="fa fa-external-link-square" aria-hidden="true"></i></a>
+        </div>
+        <div class="conf_résumé">
+          <h2>On n'est pas que des pigeons, 2016</h2>
+          <p>L'emission On n'est plus des pigeons ! propose des pistes de réflexions sur des sujets de société. Dans cette emission, le thème de la neutralité du net les a amené à rencontrer La Quadrature du Net.</p>
+        </div>
+      </div>
+    </div>
+    <div class="conférence 3 flex">
+      <div class="conférencier flex">
+        <img src="./assets/img/bb.jpg" alt="">
+        <div>
+          <h2>Benjamin Bayart</h2>
+          <p>Benjamin Bayart est un militant pour les libertés fondamentales dans la société de l'information. Il a été pendant quinze ans président de French Data Network, le plus ancien fournisseur d'accès à Internet en France encore en exercice.</p>
+        </div>
+      </div>
+      <div class="conf flex">
+        <div class="image">
+          <img src="./assets/img/tv.jpg" alt="">
+        </div>
+        <div class="conf_résumé">
+          <h2>Thinkerview - Neutralité du net, 2014</h2>
+          <p>ThinkerView est un groupe indépendant issu d'internet. Dans cette interview de Benjamin Bayart, il est question de la neutralité du net et des conséquences d'une régulation par des institutions qui semblent de plus en plus déconnectées des réalités "numériques". </p>
+        </div>
+      </div>
+    </div>
+    <div class="conférence 4 flex">
+      <div class="conférencier flex">
+        <img src="./assets/img/jeremie.jpg" alt="">
+        <div>
+          <h2>Jérémie Zimmermann</h2>
+          <p>Jérémie Zimmermann, est le porte parole et le co-fondateur fondateur de La Quadrature du Net, une organisation de défense des droits et libertés des citoyens sur le web.</p>
+        </div>
+      </div>
+      <div class="conf flex">
+        <div class="image">
+          <img src="./assets/img/commission.jpg" alt="">
+        </div>
+        <div class="conf_résumé">
+          <h2>Commisson d'enquête, 2015</h2>
+          <p>Dans le cadre d'une commission d'enquête sur la lutte réseaux djihadistes, Jérémie Zimmermann explique le conflit entre les libertés fondamentales des individus et le système de renseignement mis en place par l'Etat français via la Loi Renseignement.</p>
+        </div>
+      </div>
+    </div>
+    <div class="conférence 5 flex">
+      <div class="conférencier flex">
+        <img src="./assets/img/jeremie.jpg" alt="">
+        <div>
+          <h2>Jérémie Zimmermann</h2>
+          <p>Jérémie Zimmermann, est le porte parole et le co-fondateur de La Quadrature du Net, une organisation de défense des droits et libertés des citoyens sur le web.</p>
+        </div>
+      </div>
+      <div class="conf flex">
+        <div class="image">
+          <img src="./assets/img/conf_jeremie.jpg" alt="">
+        </div>
+        <div class="conf_résumé">
+          <h2>Comment défendre nos libertés en ligne ?, 2015</h2>
+          <p>La Quadrature du Net est une association prônant des valeurs telles que le partage de la connaissance, l'ouverture de la technologie et la maitrise de la technologie par les individus.
+Jérémie Zimmermann nous offre quelques pistes de réfléxions et des informations sur la genèse de La Quadrature du Net.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="playlist">
+    <div class="haut flex">
+      <p>Playlist</p>
+      <i class="fa fa-angle-down" aria-hidden="true"></i>
+    </div>
+    <div class="videos flex">
+      <div class="video" data-name="1">
+        <div>
+          <img src="./assets/img/mini-data.jpg" alt="">
+          <h3>Motion design</h3>
+          <p>#Data Gueule, 2015</p>
+        </div>
+      </div>
+      <div class="video" data-name="2">
+        <div>
+          <img src="./assets/img/mini-pigeon.jpg" alt="">
+          <h3>Quadrature du net</h3>
+          <p>ONPQDP, 2016</p>
+        </div>
+      </div>
+      <div class="video" data-name="3">
+        <div>
+          <img src="./assets/img/mini-bb.jpg" alt="">
+          <h3>Thinkerview</h3>
+          <p>Benjamin Bayart, 2014</p>
+        </div>
+      </div>
+      <div class="video" data-name="4">
+        <div>
+          <img src="./assets/img/mini-renseignement.jpg" alt="">
+          <h3>Commission d'enquête</h3>
+          <p>Jeremie Zimmermann, 2015</p>
+        </div>
+      </div>
+      <div class="video" data-name="5">
+        <div>
+          <img src="./assets/img/mini-quadra.jpg" alt="">
+          <h3>Conférence</h3>
+          <p>Jeremie Zimmermann, 2015</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button type="button" name="button" id="infos">?</button>
+
+	<script type="text/javascript" src="js/vendors/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/vendors/videojs.js"></script>
+	<script type="text/javascript" src="js/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

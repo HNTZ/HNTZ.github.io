@@ -642,9 +642,10 @@ main #envt .tech {
   justify-content: center; }
   main #envt .tech:hover img {
     -webkit-filter: grayscale(0%) drop-shadow(0px 0px 9px rgba(0, 0, 0, 0.2));
-            filter: grayscale(0%) drop-shadow(0px 0px 9px rgba(0, 0, 0, 0.2));
-    -webkit-transform: rotate3d(0.5, 1, 0, 3deg) translateZ(2px);
-            transform: rotate3d(0.5, 1, 0, 3deg) translateZ(2px); }
+            filter: grayscale(0%) drop-shadow(0px 0px 9px rgba(0, 0, 0, 0.2)); }
+
+main #envt .next img {
+  width: auto; }
 
 main #envt h3 {
   font-weight: 200;
@@ -725,6 +726,6 @@ main #experiences .experience {
     @media (min-width: 1200px) {
       main #experiences .experience > div {
         font-size: 1em;
-        padding: 8em 0; } }
+        padding: 4em 0; } }
 
 /*# sourceMappingURL=app.css.map*/
